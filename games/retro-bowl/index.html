@@ -1,22 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
+    <meta charset="UTF-8">
     <title>Retro Bowl</title>
     <style>
-        body, html {
-            margin: 0; padding: 0; height: 100%;
-            overflow: hidden;
+        html, body {
+            margin: 0;
+            padding: 0;
             background-color: black;
-        }
-        iframe {
-            border: none;
-            width: 100vw;
-            height: 100vh;
+            height: 100%;
         }
     </style>
 </head>
 <body>
-    <iframe src="https://retro-bowl.com/" allowfullscreen></iframe>
+    <div id="game-container">Loading Retro Bowl...</div>
+    <script>
+        fetch('/retro-bowl')
+            .then(res => res.text())
+            .then(html => {
+                document.open();
+                document.write(html);
+                document.close();
+            })
+            .catch(err => {
+                document.getElementById('game-container').innerText = 'Failed to load Retro Bowl.';
+            });
+    </script>
 </body>
 </html>
