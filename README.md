@@ -1,6 +1,7 @@
 # ASCENDO
 
-A multipurpose site for school
+A multipurpose site for school.
+-
 Includes:
 -
 Games
