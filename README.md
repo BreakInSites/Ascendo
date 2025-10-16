@@ -1,7 +1,12 @@
-# Ascendo
-A site filled with games (unblocked shall I mention..)
+# ASCENDO
 
-# NOTICE!!!
-If you own/developed ANY of these games and you want them down... please make a Issues post saying so and naming the game you want down!
+A multipurpose site for school
+Includes:
+-
+Games
+Hacks
+BookMarklets (maybe)
 
-
+# Disclaimer
+If you use this for harmful purposes, I'm NOT responsible and you cannot blame the site as you made your own decisions.
+Thanks and enjoy!
